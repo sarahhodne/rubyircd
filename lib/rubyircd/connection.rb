@@ -3,7 +3,6 @@ class RubyIRCd
     attr_accessor :server
 
     def post_init
-      @ping_timer = EventMa
     end
 
     def unbind
